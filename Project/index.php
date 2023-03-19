@@ -29,6 +29,7 @@ $RrestC=mysqli_query($connect,$query);
 <meta name="content" content="Login for page hotel" />
 <link rel="stylesheet" href="main.css"/>
 </head>
+	<body>
 <div class="title">
 <h2>Welcome <?php echo "$n1" ?></h2>
 </div>
@@ -165,4 +166,5 @@ while($count<=3){
 </div>
 
 </div>
+	</body>
 </html>
